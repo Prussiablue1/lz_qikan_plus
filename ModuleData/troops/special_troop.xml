@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+   <!-- 女剑士 -->
+       <NPCCharacter id="sword_sisters_sister_t4" is_female="true" default_group="Ranged" is_hero="false" level="21" name="{=ZK0GXYCx}Sword Sister" occupation="Mercenary" culture="Culture.empire">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_empire" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="110" />
+                     <skill id="Riding" value="60" />
+                     <skill id="OneHanded" value="110" />
+                     <skill id="TwoHanded" value="45" />
+                     <skill id="Polearm" value="45" />
+                     <skill id="Bow" value="15" />
+                     <skill id="Crossbow" value="90" />
+                     <skill id="Throwing" value="20" />
+              </skills>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.sword_sisters_sister_t5" />
+                     <upgrade_target id="NPCCharacter.sword_sisters_sister_infantry_t5" />
+                     <upgrade_target id="NPCCharacter.sword_sisters_throwing_knife" />
+              </upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.narrow_sword_t3" />
+                            <equipment slot="Item1" id="Item.crossbow_d" />
+                            <equipment slot="Item2" id="Item.bolt_b" />
+                            <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+                            <equipment slot="Body" id="Item.eastern_studded_leather" />
+                            <equipment slot="Leg" id="Item.battania_woodland_boots" />
+                            <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.narrow_sword_t3" />
+                            <equipment slot="Item1" id="Item.crossbow_d" />
+                            <equipment slot="Item2" id="Item.bolt_b" />
+                            <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+                            <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+                            <equipment slot="Body" id="Item.northern_lamellar_armor" />
+                            <equipment slot="Leg" id="Item.battania_woodland_boots" />
+                            <equipment slot="Gloves" id="Item.padded_vambrace" />
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.narrow_sword_t3" />
+                            <equipment slot="Item1" id="Item.crossbow_d" />
+                            <equipment slot="Item2" id="Item.bolt_b" />
+                            <equipment slot="Item3" id="Item.bracketed_heater_shield" />
+                            <equipment slot="Cape" id="Item.battania_civil_cloak" />
+                            <equipment slot="Body" id="Item.leather_scale_armor" />
+                            <equipment slot="Leg" id="Item.battania_woodland_boots" />
+                            <equipment slot="Gloves" id="Item.padded_vambrace" />
+                     </EquipmentRoster>
+                     <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+              </Equipments>
+       </NPCCharacter>
+       <!-- 侠义女剑士 -->
+       <NPCCharacter id="sword_sisters_sister_t5" is_female="true" default_group="HorseArcher" is_hero="false" level="26" name="{=ifL3F7E2}Gallant Sword Sister" occupation="Mercenary" culture="Culture.empire">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_empire" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="70" />
+                     <skill id="Riding" value="130" />
+                     <skill id="OneHanded" value="120" />
+                     <skill id="TwoHanded" value="45" />
+                     <skill id="Polearm" value="45" />
+                     <skill id="Bow" value="15" />
+                     <skill id="Crossbow" value="150" />
+                     <skill id="Throwing" value="20" />
+              </skills>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.sword_sisters_chivalrous_sister" />
+                     <upgrade_target id="NPCCharacter.Sword_sisters_BD_t6" />
+              </upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.empire_sword_4_t4" />
+                            <equipment slot="Item1" id="Item.crossbow_e" />
+                            <equipment slot="Item2" id="Item.bolt_b" />
+                            <equipment slot="Item3" id="Item.wide_heater_shield" />
+                            <equipment slot="Cape" id="Item.hood" />
+                            <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+                            <equipment slot="Leg" id="Item.turndown_leather_boots" />
+                            <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.empire_sword_4_t4" />
+                            <equipment slot="Item1" id="Item.crossbow_e" />
+                            <equipment slot="Item2" id="Item.bolt_b" />
+                            <equipment slot="Item3" id="Item.wide_heater_shield" />
+                            <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+                            <equipment slot="Body" id="Item.banded_leather_over_mail" />
+                            <equipment slot="Leg" id="Item.turndown_leather_boots" />
+                            <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.empire_sword_4_t4" />
+                            <equipment slot="Item1" id="Item.crossbow_e" />
+                            <equipment slot="Item2" id="Item.bolt_b" />
+                            <equipment slot="Item3" id="Item.wide_heater_shield" />
+                            <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+                            <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+                            <equipment slot="Leg" id="Item.turndown_leather_boots" />
+                            <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+                     </EquipmentRoster>
+                     <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+                     <equipment slot="Horse" id="Item.t2_empire_horse" />
+                     <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+              </Equipments>
+       </NPCCharacter>
+       <!-- 女游侠 -->
+       <NPCCharacter id="sword_sisters_chivalrous_sister" is_female="true" default_group="HorseArcher" is_hero="false" level="31" name="女游侠" occupation="Soldier" culture="Culture.empire">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_empire" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="150" />
+                     <skill id="Riding" value="200" />
+                     <skill id="OneHanded" value="120" />
+                     <skill id="TwoHanded" value="180" />
+                     <skill id="Polearm" value="80" />
+                     <skill id="Bow" value="80" />
+                     <skill id="Crossbow" value="220" />
+                     <skill id="Throwing" value="45" />
+              </skills>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.reaper_falx" />
+                            <equipment slot="Item1" id="Item.crossbow_e" />
+                            <equipment slot="Item2" id="Item.bolt_c" />
+                            <equipment slot="Item3" id="Item.bolt_c" />
+                            <equipment slot="Cape" id="Item.varangian_bra_scale" />
+                            <equipment slot="Body" id="Item.empire_legion_b" />
+                            <equipment slot="Leg" id="Item.northern_plated_boots" />
+                            <equipment slot="Gloves" id="Item.northern_plated_gloves" />
+                     </EquipmentRoster>
+                     <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+                     <equipment slot="Horse" id="Item.t2_empire_horse" />
+                     <equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+              </Equipments>
+       </NPCCharacter>
+       <!-- 见习飞刀手 -->
+       <NPCCharacter id="sword_sisters_throwing_knife" is_female="true" default_group="HorseArcher" is_hero="false" level="26" name="见习飞刀手" occupation="Mercenary" culture="Culture.empire">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_empire" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="150" />
+                     <skill id="Riding" value="130" />
+                     <skill id="OneHanded" value="120" />
+                     <skill id="TwoHanded" value="45" />
+                     <skill id="Polearm" value="45" />
+                     <skill id="Bow" value="45" />
+                     <skill id="Crossbow" value="70" />
+                     <skill id="Throwing" value="150" />
+              </skills>
+              <upgrade_targets>
+                     <upgrade_target id="NPCCharacter.sword_sisters_forest_throwing_knife" />
+              </upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.aserai_sword_7_t5" />
+                            <equipment slot="Item1" id="Item.desert_throwing_knife_blunt" />
+                            <equipment slot="Item2" id="Item.desert_throwing_knife_blunt" />
+                            <equipment slot="Item3" id="Item.desert_throwing_knife_blunt" />
+                            <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+                            <equipment slot="Body" id="Item.banded_leather_over_mail" />
+                            <equipment slot="Leg" id="Item.turndown_leather_boots" />
+                            <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.aserai_sword_7_t5" />
+                            <equipment slot="Item1" id="Item.desert_throwing_knife_blunt" />
+                            <equipment slot="Item2" id="Item.desert_throwing_knife_blunt" />
+                            <equipment slot="Item3" id="Item.desert_throwing_knife_blunt" />
+                            <equipment slot="Cape" id="Item.hood" />
+                            <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+                            <equipment slot="Leg" id="Item.turndown_leather_boots" />
+                            <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+                     </EquipmentRoster>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.aserai_sword_7_t5" />
+                            <equipment slot="Item1" id="Item.desert_throwing_knife_blunt" />
+                            <equipment slot="Item2" id="Item.desert_throwing_knife_blunt" />
+                            <equipment slot="Item3" id="Item.desert_throwing_knife_blunt" />
+                            <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+                            <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+                            <equipment slot="Leg" id="Item.turndown_leather_boots" />
+                            <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+                     </EquipmentRoster>
+                     <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+                     <equipment slot="Horse" id="Item.t2_empire_horse" />
+                     <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+              </Equipments>
+       </NPCCharacter>
+       <!-- 丛林飞刀女 -->
+       <NPCCharacter id="sword_sisters_forest_throwing_knife" is_female="true" default_group="HorseArcher" is_hero="false" level="31" name="丛林飞刀女" occupation="Mercenary" culture="Culture.empire">
+              <face>
+                     <face_key_template value="BodyProperty.fighter_empire" />
+              </face>
+              <skills>
+                     <skill id="Athletics" value="180" />
+                     <skill id="Riding" value="180" />
+                     <skill id="OneHanded" value="220" />
+                     <skill id="TwoHanded" value="45" />
+                     <skill id="Polearm" value="20" />
+                     <skill id="Bow" value="45" />
+                     <skill id="Crossbow" value="180" />
+                     <skill id="Throwing" value="290" />
+              </skills>
+              <upgrade_targets>
+              </upgrade_targets>
+              <Equipments>
+                     <EquipmentRoster>
+                            <equipment slot="Item0" id="Item.forest_throwing_knife" />
+                            <equipment slot="Item1" id="Item.forest_throwing_knife" />
+                            <equipment slot="Item2" id="Item.forest_throwing_knife" />
+                            <equipment slot="Item3" id="Item.chivalric_kite_shield" />
+                            <equipment slot="Body" id="Item.kilt_over_plated_leather_forest" />
+                            <equipment slot="Leg" id="Item.battania_warlord_boots" />
+                            <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+                            <equipment slot="Head" id="Item.bearhead" />
+                     </EquipmentRoster>
+                     <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+                     <equipment slot="Horse" id="Item.noble_horse_eastern" />
+                     <equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+              </Equipments>
+       </NPCCharacter>
+
+    <!--资深女剑士-->
+       <NPCCharacter id="sword_sisters_sister_infantry_t5" is_female="true" default_group="Ranged" is_hero="false" level="26"  name="资深女剑士" occupation="Mercenary" culture="Culture.neutral_culture">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="130" />
+			<skill id="Riding" value="50" />
+			<skill id="OneHanded" value="130" />
+			<skill
+					id="TwoHanded"
+					value="45" />
+			<skill
+					id="Polearm"
+					value="45" />
+			<skill
+					id="Bow"
+					value="15" />
+			<skill
+					id="Crossbow"
+					value="150" />
+			<skill
+					id="Throwing"
+					value="20" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.Sword_sisters_pie_BD_t6" />
+		</upgrade_targets>
+		<Equipments>
+
+		</Equipments>
+	</NPCCharacter>
+
+
+
+	<NPCCharacter id="Sword_sisters_BD_t6" is_female="true" default_group="HorseArcher" is_hero="false" level="31" name="战斗女神" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="24.23" weight="0.26" build="0.5"
+							key="000D4C04004410062874B5B50297557CA5C77A78A759AD746B776CD47487D48500974A0309347765000000000000000000000000000000000000000023301103"  />
+		</face>
+		<skills >
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="180"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="260"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.Sword_sisters_BD_t7" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.C_5_crossbow_g"/>
+				<equipment slot="Item1" id="Item.BD_bolt_E"/>
+				<equipment slot="Item2" id="Item.west_Virgin_Mary_shield"/>
+				<equipment slot="Item3" id="Item.Death_cult_Spear_G5QB"/>
+				<equipment slot="Head" id="Item.west_holy_crown_north"/>
+				<equipment slot="Cape" id="Item.west_holy_selector_1"/>
+				<equipment slot="Body" id="Item.honor_U_lamellar_over_leather"/>
+				<equipment slot="Gloves" id="Item.decorated_Nobleman_gauntlets"/>
+				<equipment slot="Leg" id="Item.decorated_Nobleman_boots"/>
+				<equipment slot="Horse" id="Item.Empire_T2_horse_zm"/>
+				<equipment slot="HorseHarness" id="Item.Empire_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="Sword_sisters_BD_t7" is_female="true" default_group="HorseArcher" is_hero="false" level="56" name="荣光武神" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="24.23" weight="0.26" build="0.5"
+							key="000D4C04004410062874B5B50297557CA5C77A78A759AD746B776CD47487D48500974A0309347765000000000000000000000000000000000000000023301103"  />
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="330"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="500"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="500"/>
+			<skill id="Throwing" value="160"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.C_5_crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_d_heap_95C"/>
+				<equipment slot="Item2" id="Item.west_Virgin_Mary_shield"/>
+				<equipment slot="Item3" id="Item.Death_cult_Spear_G5QB"/>
+				<equipment slot="Head" id="Item.Empire_crown_BD"/>
+				<equipment slot="Cape" id="Item.west_holy_selector"/>
+				<equipment slot="Body" id="Item.BD_lamellar_gambeson_over_silk_BZ"/>
+				<equipment slot="Gloves" id="Item.decorated_Nobleman_gauntlets"/>
+				<equipment slot="Leg" id="Item.decorated_Nobleman_boots"/>
+				<equipment slot="Horse" id="Item.Empire_T2_horse_zm"/>
+				<equipment slot="HorseHarness" id="Item.Empire_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="Sword_sisters_pie_BD_t6" is_female="true" default_group="Ranged" is_hero="false" level="31" name="勇气女侠" upgrade_requires="ItemCategory.horse"  occupation="Mercenary" culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.13" weight="0.26" build="0.5"
+							key="000D4C04004410062874B5B50297557CA5C77A78A759AD746B776CD47487D48500974A0309347765000000000000000000000000000000000000000023301103"  />
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="260"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="260"/>
+		</skills>		
+		<upgrade_targets>
+		<upgrade_target id="NPCCharacter.Sword_sisters_BD_pie_t7" />
+	</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.BD_axe_8_t1"/>
+				<equipment slot="Item1" id="Item.BeiDi_pot1"/>
+				<equipment slot="Cape" id="Item.studded_Nobleman_neckguard"/>
+				<equipment slot="Body" id="Item.honor_U_lamellar_over_leather"/>
+				<equipment slot="Gloves" id="Item.decorated_Nobleman_gauntlets"/>
+				<equipment slot="Leg" id="Item.decorated_Nobleman_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="Sword_sisters_BD_pie_t7" is_female="true" default_group="Ranged" is_hero="false" level="56" name="无畏女神" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.23" weight="0.26" build="0.5"
+							key="000D4C04004410062874B5B50297557CA5C77A78A759AD746B776CD47487D48500974A0309347765000000000000000000000000000000000000000023301103"  />
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="400"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="310"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="330"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.Nobleman_noble_sword_t6"/>
+				<equipment slot="Item1" id="Item.west_simple_pike_JUMAO"/>
+				<equipment slot="Item2" id="Item.BeiDi_pot1"/>
+				<equipment slot="Head" id="Item.west_holy_crown_north"/>
+				<equipment slot="Cape" id="Item.Empire_pauldron_cape_a"/>
+				<equipment slot="Body" id="Item.honor_U_lamellar_over_leather"/>
+				<equipment slot="Gloves" id="Item.decorated_Nobleman_gauntlets"/>
+				<equipment slot="Leg" id="Item.decorated_Nobleman_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+
+</NPCCharacters>
